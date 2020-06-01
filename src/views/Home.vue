@@ -128,9 +128,9 @@ export default {
       return this.list.filter(item => item.description === this.description);
     },
     filterbycategory: function() {
-      /*if (this.list.category == "All") {
+      if (this.category == "All") {
         return this.list;
-      }*/
+      }
       return this.list.filter(item => item.category === this.category);
     }
   },
